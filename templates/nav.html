@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>abc</title>
+        <link rel="stylesheet" href="{{url_for('static',filename='abc.css')}}">
+    </head>
+  <body>
+{%block new%}
+{%endblock%}
+
+    thsi is the nav.index file
+    
+         <a href="{{ url_for('index') }}">Home</a>
+        <a href="{{ url_for('main') }}">About</a>
+          </ul>
+        
+    <!-- <div class="container">
+      {% block content %}
+      {% endblock %}
+    </div> -->
+  </body>
+</html>
